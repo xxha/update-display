@@ -1,0 +1,397 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+AR	MessageBox/Makefile	/^AR            = ar cqs$/;"	m
+AR	MessageBox/load/Makefile	/^AR            = ar cqs$/;"	m
+BUFFER	update_soft.h	40;"	d
+CC	Makefile	/^CC            = gcc$/;"	m
+CC	MessageBox/Makefile	/^CC            = gcc$/;"	m
+CC	MessageBox/load/Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	MessageBox/Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	MessageBox/load/Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	MessageBox/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	MessageBox/load/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CLEAR_ALL_INVALID	update_soft.h	102;"	d
+CLEAR_BIT_INVALID	update_soft.h	101;"	d
+CLEAR_BIT_MD5FAIL	update_soft.h	97;"	d
+CLEAR_BIT_UPGRADE_FAILED	update_soft.h	158;"	d
+CLEAR_UPGRADE_FLAG	update_soft.h	99;"	d
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	MessageBox/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	MessageBox/load/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY	MessageBox/Makefile	/^COPY          = cp -f$/;"	m
+COPY	MessageBox/load/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	MessageBox/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	MessageBox/load/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	MessageBox/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	MessageBox/load/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXX	MessageBox/Makefile	/^CXX           = g++$/;"	m
+CXX	MessageBox/load/Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	MessageBox/Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	MessageBox/load/Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	MessageBox/Makefile	/^DEFINES       = -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	MessageBox/load/Makefile	/^DEFINES       = -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	MessageBox/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	MessageBox/load/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	MessageBox/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	MessageBox/load/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DESTDIR	MessageBox/Makefile	/^DESTDIR       = $/;"	m
+DESTDIR	MessageBox/load/Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/g++.conf \\$/;"	m
+DIST	MessageBox/Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/g++.conf \\$/;"	m
+DIST	MessageBox/load/Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/g++.conf \\$/;"	m
+IMAGES_MAP	update_soft.h	/^}IMAGES_MAP;$/;"	t	typeref:struct:_IMAGES_MAP
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I.$/;"	m
+INCPATH	MessageBox/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I.$/;"	m
+INCPATH	MessageBox/load/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	MessageBox/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	MessageBox/load/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	MessageBox/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	MessageBox/load/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	MessageBox/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	MessageBox/load/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IS_BIT_INVALID	update_soft.h	120;"	d
+IS_BIT_MD5FAIL	update_soft.h	95;"	d
+IS_BIT_UPGRADE_FAILED	update_soft.h	148;"	d
+IS_HAVE_INVALID	update_soft.h	121;"	d
+IS_HAVE_UPGRADE_FAILED	update_soft.h	156;"	d
+IS_MD5FAIL_100GE	update_soft.h	90;"	d
+IS_MD5FAIL_10G	update_soft.h	88;"	d
+IS_MD5FAIL_16G	update_soft.h	91;"	d
+IS_MD5FAIL_1GE	update_soft.h	92;"	d
+IS_MD5FAIL_2G5	update_soft.h	93;"	d
+IS_MD5FAIL_40G	update_soft.h	89;"	d
+IS_MD5FAIL_v300	update_soft.h	94;"	d
+IS_UPGRADE_100GE	update_soft.h	133;"	d
+IS_UPGRADE_10G	update_soft.h	131;"	d
+IS_UPGRADE_16G	update_soft.h	134;"	d
+IS_UPGRADE_1GE	update_soft.h	135;"	d
+IS_UPGRADE_2G5	update_soft.h	136;"	d
+IS_UPGRADE_40G	update_soft.h	132;"	d
+IS_UPGRADE_FAILED_100GE	update_soft.h	151;"	d
+IS_UPGRADE_FAILED_10G	update_soft.h	149;"	d
+IS_UPGRADE_FAILED_16G	update_soft.h	152;"	d
+IS_UPGRADE_FAILED_1GE	update_soft.h	153;"	d
+IS_UPGRADE_FAILED_2G5	update_soft.h	154;"	d
+IS_UPGRADE_FAILED_40G	update_soft.h	150;"	d
+IS_UPGRADE_FAILED_v300	update_soft.h	155;"	d
+IS_UPGRADE_NONE	update_soft.h	138;"	d
+IS_UPGRADE_v300	update_soft.h	137;"	d
+IS_VALID_100GE	update_soft.h	115;"	d
+IS_VALID_10G	update_soft.h	113;"	d
+IS_VALID_16G	update_soft.h	116;"	d
+IS_VALID_1GE	update_soft.h	117;"	d
+IS_VALID_2G5	update_soft.h	118;"	d
+IS_VALID_40G	update_soft.h	114;"	d
+IS_VALID_v300	update_soft.h	119;"	d
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LFLAGS	MessageBox/Makefile	/^LFLAGS        = $/;"	m
+LFLAGS	MessageBox/load/Makefile	/^LFLAGS        = $/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib -Xlinker -zmuldefs -fno-stack-protector -lQtGui -lQtCore -lpthread $/;"	m
+LIBS	MessageBox/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib -lQtGui -lQtCore -lpthread $/;"	m
+LIBS	MessageBox/load/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib -lQtGui -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LINK	MessageBox/Makefile	/^LINK          = g++$/;"	m
+LINK	MessageBox/load/Makefile	/^LINK          = g++$/;"	m
+MESSAGEBOX_H	MessageBox/messagebox.h	2;"	d
+MESSAGEBOX_H	messagebox.h	2;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	MessageBox/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	MessageBox/load/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	MessageBox/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	MessageBox/load/Makefile	/^MOVE          = mv -f$/;"	m
+MSG_FILE	update_soft.h	39;"	d
+MSG_LEN	update_soft.h	64;"	d
+MessageBox	MessageBox/messagebox.cpp	/^MessageBox::MessageBox( QMessageBox::Icon icon, const QString & title, const QString & text, QMessageBox::StandardButtons buttons, QWidget * parent = 0, Qt::WindowFlags f = Qt::Dialog | Qt::MSWindowsFixedSizeDialogHint)$/;"	f	class:MessageBox
+MessageBox	MessageBox/messagebox.h	/^class MessageBox : public QDialog$/;"	c
+MessageBox	messagebox.cpp	/^MessageBox::MessageBox( QMessageBox::Icon icon, const QString & title, const QString & text, QMessageBox::StandardButtons buttons, QWidget * parent = 0, Qt::WindowFlags f = Qt::Dialog | Qt::MSWindowsFixedSizeDialogHint)$/;"	f	class:MessageBox
+MessageBox	messagebox.h	/^class MessageBox : public QDialog$/;"	c
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS	MessageBox/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS	MessageBox/load/Makefile	/^OBJECTS       = loading.o$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	MessageBox/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	MessageBox/load/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PERM	update_soft.h	42;"	d
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE	MessageBox/Makefile	/^QMAKE         = \/usr\/bin\/qmake-qt4$/;"	m
+QMAKE	MessageBox/load/Makefile	/^QMAKE         = \/usr\/bin\/qmake-qt4$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = update_soft$/;"	m
+QMAKE_TARGET	MessageBox/Makefile	/^QMAKE_TARGET  = MessageBox$/;"	m
+QMAKE_TARGET	MessageBox/load/Makefile	/^QMAKE_TARGET  = load$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RANLIB	MessageBox/Makefile	/^RANLIB        = $/;"	m
+RANLIB	MessageBox/load/Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SED	MessageBox/Makefile	/^SED           = sed$/;"	m
+SED	MessageBox/load/Makefile	/^SED           = sed$/;"	m
+SET_100GE_INVALID	update_soft.h	107;"	d
+SET_100GE_MD5FAIL	update_soft.h	82;"	d
+SET_100GE_UPGRADE	update_soft.h	125;"	d
+SET_100GE_UPGRADE_FAILED	update_soft.h	142;"	d
+SET_10G_INVALID	update_soft.h	105;"	d
+SET_10G_MD5FAIL	update_soft.h	80;"	d
+SET_10G_UPGRADE	update_soft.h	123;"	d
+SET_10G_UPGRADE_FAILED	update_soft.h	140;"	d
+SET_16G_INVALID	update_soft.h	108;"	d
+SET_16G_MD5FAIL	update_soft.h	83;"	d
+SET_16G_UPGRADE	update_soft.h	126;"	d
+SET_16G_UPGRADE_FAILED	update_soft.h	143;"	d
+SET_1GE_INVALID	update_soft.h	109;"	d
+SET_1GE_MD5FAIL	update_soft.h	84;"	d
+SET_1GE_UPGRADE	update_soft.h	127;"	d
+SET_1GE_UPGRADE_FAILED	update_soft.h	144;"	d
+SET_2G5_INVALID	update_soft.h	110;"	d
+SET_2G5_MD5FAIL	update_soft.h	85;"	d
+SET_2G5_UPGRADE	update_soft.h	128;"	d
+SET_2G5_UPGRADE_FAILED	update_soft.h	145;"	d
+SET_40G_INVALID	update_soft.h	106;"	d
+SET_40G_MD5FAIL	update_soft.h	81;"	d
+SET_40G_UPGRADE	update_soft.h	124;"	d
+SET_40G_UPGRADE_FAILED	update_soft.h	141;"	d
+SET_BIT_INVALID	update_soft.h	104;"	d
+SET_V300_INVALID	update_soft.h	111;"	d
+SET_V300_MD5FAIL	update_soft.h	86;"	d
+SET_V300_UPGRADE	update_soft.h	129;"	d
+SET_V300_UPGRADE_FAILED	update_soft.h	146;"	d
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SOURCES	MessageBox/Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SOURCES	MessageBox/load/Makefile	/^SOURCES       = loading.cpp $/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+STRIP	MessageBox/Makefile	/^STRIP         = strip$/;"	m
+STRIP	MessageBox/load/Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	MessageBox/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	MessageBox/load/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TAR	MessageBox/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	MessageBox/load/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = update_soft$/;"	m
+TARGET	MessageBox/Makefile	/^TARGET        = MessageBox$/;"	m
+TARGET	MessageBox/load/Makefile	/^TARGET        = load$/;"	m
+UPDATE_SOFT_H	update_soft.h	2;"	d
+_IMAGES_MAP	update_soft.h	/^typedef struct _IMAGES_MAP{$/;"	s
+_x11_display	main.cpp	/^Display *_x11_display=NULL;$/;"	v
+buffer	update_soft.h	/^    char buffer[BUFFER];$/;"	m	struct:msgtype
+clear_str_lws	update_soft.cpp	/^void update_soft::clear_str_lws(char *s)$/;"	f	class:update_soft
+clear_tmp_file	main.cpp	/^void clear_tmp_file()$/;"	f
+client_get_msgid	main.cpp	/^int client_get_msgid()$/;"	f
+create_msgid	update_soft.cpp	/^int update_soft::create_msgid()$/;"	f	class:update_soft
+current_version_file	update_soft.cpp	/^    QString current_version_file;$/;"	m	struct:upgrade_module	file:
+disperse_pack	main.cpp	/^int disperse_pack()$/;"	f
+e100GE	update_soft.h	/^    e100GE,$/;"	e	enum:module_type
+e10G	update_soft.h	/^    e10G = 0,$/;"	e	enum:module_type
+e16G	update_soft.h	/^    e16G,$/;"	e	enum:module_type
+e1GE	update_soft.h	/^    e1GE,$/;"	e	enum:module_type
+e2G5	update_soft.h	/^    e2G5,$/;"	e	enum:module_type
+e40G	update_soft.h	/^    e40G,$/;"	e	enum:module_type
+eALL	update_soft.h	/^    eALL$/;"	e	enum:msg_type
+eCLIENT	update_soft.h	/^    eCLIENT = 1,$/;"	e	enum:msgfrom
+eFAIL	update_soft.h	/^    eFAIL,$/;"	e	enum:msg_type
+eSERVER	update_soft.h	/^    eSERVER$/;"	e	enum:msgfrom
+eSTART	update_soft.h	/^    eSTART = 1,$/;"	e	enum:msg_type
+eSUCC	update_soft.h	/^    eSUCC,$/;"	e	enum:msg_type
+eV300	update_soft.h	/^    eV300$/;"	e	enum:module_type
+exit_if_fail	main.cpp	16;"	d	file:
+extract_thread_status	update_soft.h	/^int extract_thread_status = -1;\/\/-1 is not start, 0 is exit, 1 is run$/;"	v
+extract_version	main.cpp	/^void *extract_version(void*)$/;"	f
+failed	main.cpp	/^int failed(int msgid, int upgrade_type)$/;"	f
+failed_time	main.cpp	/^static int failed_time = 0;$/;"	v	file:
+finished	main.cpp	/^int finished(int msgid)$/;"	f
+fork_uiapp_srvs	main.cpp	/^int fork_uiapp_srvs()$/;"	f
+from	update_soft.h	/^    long from;$/;"	m	struct:msgtype
+gHeight	update_soft.cpp	9;"	d	file:
+gWidth	update_soft.cpp	8;"	d	file:
+g_CHECKED_PNG	update_soft.cpp	14;"	d	file:
+g_LOADING_GIF	update_soft.cpp	16;"	d	file:
+g_STR_LOADING	update_soft.cpp	13;"	d	file:
+g_STR_UPGRADE_ROOTFS	update_soft.cpp	12;"	d	file:
+g_STR_UX400_UPGRADE_TITLE	update_soft.cpp	11;"	d	file:
+g_UNCHECK_PNG	update_soft.cpp	15;"	d	file:
+g_bMonirotExit	main.cpp	/^volatile bool g_bMonirotExit = FALSE;$/;"	v
+g_ckey	update_soft.h	/^char g_ckey = 'a'; \/\/for msg key$/;"	v
+gen_authfile	main.cpp	/^int gen_authfile(const char* str_authfile)$/;"	f
+gen_mcookie	main.cpp	/^int gen_mcookie()$/;"	f
+getStaticMetaObject	MessageBox/moc_messagebox.cpp	/^const QMetaObject &MessageBox::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MessageBox
+getStaticMetaObject	moc_messagebox.cpp	/^const QMetaObject &MessageBox::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MessageBox
+getStaticMetaObject	moc_update_soft.cpp	/^const QMetaObject &update_soft::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:update_soft
+get_soft_version	update_soft.cpp	/^bool update_soft::get_soft_version(const int type)$/;"	f	class:update_soft
+image_map	update_soft.h	/^IMAGES_MAP image_map[]={$/;"	v
+image_name	update_soft.h	/^    char image_name[128];$/;"	m	struct:_IMAGES_MAP
+init	main.cpp	/^int init()$/;"	f
+is_ack_msg	main.cpp	/^int is_ack_msg(struct msgtype msg, int msg_type)$/;"	f
+load_version_timer	update_soft.cpp	/^void update_soft::load_version_timer()$/;"	f	class:update_soft
+m_100geCheckBox	update_soft.h	/^    QPushButton *m_100geCheckBox;$/;"	m	class:update_soft
+m_100geCheckBox_isChecked	update_soft.h	/^    bool m_100geCheckBox_isChecked;$/;"	m	class:update_soft
+m_100geCheckBox_slot	update_soft.cpp	/^void update_soft::m_100geCheckBox_slot()$/;"	f	class:update_soft
+m_10gCheckBox	update_soft.h	/^    QPushButton *m_10gCheckBox;$/;"	m	class:update_soft
+m_10gCheckBox_isChecked	update_soft.h	/^    bool m_10gCheckBox_isChecked;$/;"	m	class:update_soft
+m_10gCheckBox_slot	update_soft.cpp	/^void update_soft::m_10gCheckBox_slot()$/;"	f	class:update_soft
+m_16gCheckBox	update_soft.h	/^    QPushButton *m_16gCheckBox;$/;"	m	class:update_soft
+m_16gCheckBox_isChecked	update_soft.h	/^    bool m_16gCheckBox_isChecked;$/;"	m	class:update_soft
+m_16gCheckBox_slot	update_soft.cpp	/^void update_soft::m_16gCheckBox_slot()$/;"	f	class:update_soft
+m_1geCheckBox	update_soft.h	/^    QPushButton *m_1geCheckBox;$/;"	m	class:update_soft
+m_1geCheckBox_isChecked	update_soft.h	/^    bool m_1geCheckBox_isChecked;$/;"	m	class:update_soft
+m_1geCheckBox_slot	update_soft.cpp	/^void update_soft::m_1geCheckBox_slot()$/;"	f	class:update_soft
+m_2_5gCheckBox	update_soft.h	/^    QPushButton *m_2_5gCheckBox;$/;"	m	class:update_soft
+m_2_5gCheckBox_isChecked	update_soft.h	/^    bool m_2_5gCheckBox_isChecked;$/;"	m	class:update_soft
+m_2_5gCheckBox_slot	update_soft.cpp	/^void update_soft::m_2_5gCheckBox_slot()$/;"	f	class:update_soft
+m_40gCheckBox	update_soft.h	/^    QPushButton *m_40gCheckBox;$/;"	m	class:update_soft
+m_40gCheckBox_isChecked	update_soft.h	/^    bool m_40gCheckBox_isChecked;$/;"	m	class:update_soft
+m_40gCheckBox_slot	update_soft.cpp	/^void update_soft::m_40gCheckBox_slot()$/;"	f	class:update_soft
+m_box_status	update_soft.h	/^    bool m_box_status[7];$/;"	m	class:update_soft
+m_cancel_button	update_soft.h	/^    QPushButton *m_cancel_button;$/;"	m	class:update_soft
+m_cancel_button_slot	update_soft.cpp	/^void update_soft::m_cancel_button_slot()$/;"	f	class:update_soft
+m_close_button	MessageBox/messagebox.h	/^    QPushButton *m_close_button;$/;"	m	class:MessageBox
+m_close_button	messagebox.h	/^    QPushButton *m_close_button;$/;"	m	class:MessageBox
+m_common_CheckBox	update_soft.h	/^    QPushButton *m_common_CheckBox;$/;"	m	class:update_soft
+m_common_CheckBox_isChecked	update_soft.h	/^    bool m_common_CheckBox_isChecked;$/;"	m	class:update_soft
+m_common_CheckBox_slot	update_soft.cpp	/^void update_soft::m_common_CheckBox_slot()$/;"	f	class:update_soft
+m_item_0_0	update_soft.h	/^    QTableWidgetItem *m_item_0_0;$/;"	m	class:update_soft
+m_item_0_1	update_soft.h	/^    QTableWidgetItem *m_item_0_1;$/;"	m	class:update_soft
+m_item_0_2	update_soft.h	/^    QTableWidgetItem *m_item_0_2;$/;"	m	class:update_soft
+m_item_0_3	update_soft.h	/^    QTableWidgetItem *m_item_0_3;$/;"	m	class:update_soft
+m_item_0_4	update_soft.h	/^    QTableWidgetItem *m_item_0_4;$/;"	m	class:update_soft
+m_item_0_5	update_soft.h	/^    QTableWidgetItem *m_item_0_5;$/;"	m	class:update_soft
+m_item_1_1	update_soft.h	/^    QTableWidgetItem *m_item_1_1;$/;"	m	class:update_soft
+m_item_1_2	update_soft.h	/^    QTableWidgetItem *m_item_1_2;$/;"	m	class:update_soft
+m_item_1_3	update_soft.h	/^    QTableWidgetItem *m_item_1_3;$/;"	m	class:update_soft
+m_item_1_4	update_soft.h	/^    QProgressBar *m_item_1_4;$/;"	m	class:update_soft
+m_item_1_5	update_soft.h	/^    QTableWidgetItem *m_item_1_5;$/;"	m	class:update_soft
+m_item_2_1	update_soft.h	/^    QTableWidgetItem *m_item_2_1;$/;"	m	class:update_soft
+m_item_2_2	update_soft.h	/^    QTableWidgetItem *m_item_2_2;$/;"	m	class:update_soft
+m_item_2_3	update_soft.h	/^    QTableWidgetItem *m_item_2_3;$/;"	m	class:update_soft
+m_item_2_4	update_soft.h	/^    QProgressBar *m_item_2_4;$/;"	m	class:update_soft
+m_item_2_5	update_soft.h	/^    QTableWidgetItem *m_item_2_5;$/;"	m	class:update_soft
+m_item_3_1	update_soft.h	/^    QTableWidgetItem *m_item_3_1;$/;"	m	class:update_soft
+m_item_3_2	update_soft.h	/^    QTableWidgetItem *m_item_3_2;$/;"	m	class:update_soft
+m_item_3_3	update_soft.h	/^    QTableWidgetItem *m_item_3_3;$/;"	m	class:update_soft
+m_item_3_4	update_soft.h	/^    QProgressBar *m_item_3_4;$/;"	m	class:update_soft
+m_item_3_5	update_soft.h	/^    QTableWidgetItem *m_item_3_5;$/;"	m	class:update_soft
+m_item_4_1	update_soft.h	/^    QTableWidgetItem *m_item_4_1;$/;"	m	class:update_soft
+m_item_4_2	update_soft.h	/^    QTableWidgetItem *m_item_4_2;$/;"	m	class:update_soft
+m_item_4_3	update_soft.h	/^    QTableWidgetItem *m_item_4_3;$/;"	m	class:update_soft
+m_item_4_4	update_soft.h	/^    QProgressBar *m_item_4_4;$/;"	m	class:update_soft
+m_item_4_5	update_soft.h	/^    QTableWidgetItem *m_item_4_5;$/;"	m	class:update_soft
+m_item_5_1	update_soft.h	/^    QTableWidgetItem *m_item_5_1;$/;"	m	class:update_soft
+m_item_5_2	update_soft.h	/^    QTableWidgetItem *m_item_5_2;$/;"	m	class:update_soft
+m_item_5_3	update_soft.h	/^    QTableWidgetItem *m_item_5_3;$/;"	m	class:update_soft
+m_item_5_4	update_soft.h	/^    QProgressBar *m_item_5_4;$/;"	m	class:update_soft
+m_item_5_5	update_soft.h	/^    QTableWidgetItem *m_item_5_5;$/;"	m	class:update_soft
+m_item_6_1	update_soft.h	/^    QTableWidgetItem *m_item_6_1;$/;"	m	class:update_soft
+m_item_6_2	update_soft.h	/^    QTableWidgetItem *m_item_6_2;$/;"	m	class:update_soft
+m_item_6_3	update_soft.h	/^    QTableWidgetItem *m_item_6_3;$/;"	m	class:update_soft
+m_item_6_4	update_soft.h	/^    QProgressBar *m_item_6_4;$/;"	m	class:update_soft
+m_item_6_5	update_soft.h	/^    QTableWidgetItem *m_item_6_5;$/;"	m	class:update_soft
+m_item_7_1	update_soft.h	/^    QTableWidgetItem *m_item_7_1;$/;"	m	class:update_soft
+m_item_7_2	update_soft.h	/^    QTableWidgetItem *m_item_7_2;$/;"	m	class:update_soft
+m_item_7_3	update_soft.h	/^    QTableWidgetItem *m_item_7_3;$/;"	m	class:update_soft
+m_item_7_4	update_soft.h	/^    QProgressBar *m_item_7_4;$/;"	m	class:update_soft
+m_item_7_5	update_soft.h	/^    QTableWidgetItem *m_item_7_5;$/;"	m	class:update_soft
+m_item_8_1	update_soft.h	/^    QTableWidgetItem *m_item_8_1;$/;"	m	class:update_soft
+m_item_8_2	update_soft.h	/^    QTableWidgetItem *m_item_8_2;$/;"	m	class:update_soft
+m_item_8_3	update_soft.h	/^    QTableWidgetItem *m_item_8_3;$/;"	m	class:update_soft
+m_load_version_timer	update_soft.h	/^    QTimer *m_load_version_timer;$/;"	m	class:update_soft
+m_loading	update_soft.h	/^    QLabel *m_loading;$/;"	m	class:update_soft
+m_movie	update_soft.h	/^    QMovie *m_movie;$/;"	m	class:update_soft
+m_paint	MessageBox/messagebox.h	/^    QPainter *m_paint;$/;"	m	class:MessageBox
+m_paint	messagebox.h	/^    QPainter *m_paint;$/;"	m	class:MessageBox
+m_rootfs_CheckBox	update_soft.h	/^    QPushButton *m_rootfs_CheckBox;$/;"	m	class:update_soft
+m_rootfs_CheckBox_isChecked	update_soft.h	/^    bool m_rootfs_CheckBox_isChecked;$/;"	m	class:update_soft
+m_rootfs_CheckBox_slot	update_soft.cpp	/^void update_soft::m_rootfs_CheckBox_slot()$/;"	f	class:update_soft
+m_tableWidget	update_soft.h	/^    QTableWidget *m_tableWidget;$/;"	m	class:update_soft
+m_timer	update_soft.h	/^    QTimer *m_timer;$/;"	m	class:update_soft
+m_title	MessageBox/messagebox.h	/^    QLabel *m_title;$/;"	m	class:MessageBox
+m_title	messagebox.h	/^    QLabel *m_title;$/;"	m	class:MessageBox
+m_titleLable	update_soft.h	/^    QLabel *m_titleLable;$/;"	m	class:update_soft
+m_upgrade_button	update_soft.h	/^    QPushButton *m_upgrade_button;$/;"	m	class:update_soft
+m_upgrade_button_slot	update_soft.cpp	/^void update_soft::m_upgrade_button_slot()$/;"	f	class:update_soft
+main	MessageBox/load/loading.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	MessageBox/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	main.cpp	/^int main()$/;"	f
+mbox	MessageBox/messagebox.h	/^    QMessageBox *mbox;$/;"	m	class:MessageBox
+mbox	messagebox.h	/^    QMessageBox *mbox;$/;"	m	class:MessageBox
+md5sum_failed	update_soft.h	/^unsigned int md5sum_failed = 0x0;$/;"	v
+metaObject	MessageBox/moc_messagebox.cpp	/^const QMetaObject *MessageBox::metaObject() const$/;"	f	class:MessageBox
+metaObject	moc_messagebox.cpp	/^const QMetaObject *MessageBox::metaObject() const$/;"	f	class:MessageBox
+metaObject	moc_update_soft.cpp	/^const QMetaObject *update_soft::metaObject() const$/;"	f	class:update_soft
+module	update_soft.cpp	/^struct upgrade_module module[8] =$/;"	v	typeref:struct:upgrade_module
+module_ready	update_soft.h	/^int module_ready = 0;\/\/bit 1 is 10g, ... , bit 8 is rootfs$/;"	v
+module_type	update_soft.h	/^enum module_type$/;"	g
+mount_disc	main.cpp	/^int mount_disc()$/;"	f
+msg_id	update_soft.h	/^    int msg_id;$/;"	m	class:update_soft
+msg_type	update_soft.h	/^enum msg_type$/;"	g
+msgfrom	update_soft.h	/^enum msgfrom$/;"	g
+msgtype	update_soft.h	/^struct msgtype {$/;"	s
+mtype	update_soft.h	/^    long mtype;$/;"	m	struct:msgtype
+new_version_file	update_soft.cpp	/^    QString new_version_file;$/;"	m	struct:upgrade_module	file:
+open_fifo	update_soft.cpp	/^int update_soft::open_fifo()$/;"	f	class:update_soft
+paintEvent	MessageBox/messagebox.cpp	/^void MessageBox::paintEvent(QPaintEvent *)$/;"	f	class:MessageBox
+paintEvent	messagebox.cpp	/^void MessageBox::paintEvent(QPaintEvent *)$/;"	f	class:MessageBox
+pid_x11_server	main.cpp	/^pid_t pid_x11_server  = -1;$/;"	v
+qt_meta_data_MessageBox	MessageBox/moc_messagebox.cpp	/^static const uint qt_meta_data_MessageBox[] = {$/;"	v	file:
+qt_meta_data_MessageBox	moc_messagebox.cpp	/^static const uint qt_meta_data_MessageBox[] = {$/;"	v	file:
+qt_meta_data_update_soft	moc_update_soft.cpp	/^static const uint qt_meta_data_update_soft[] = {$/;"	v	file:
+qt_meta_stringdata_MessageBox	MessageBox/moc_messagebox.cpp	/^static const char qt_meta_stringdata_MessageBox[] = {$/;"	v	file:
+qt_meta_stringdata_MessageBox	moc_messagebox.cpp	/^static const char qt_meta_stringdata_MessageBox[] = {$/;"	v	file:
+qt_meta_stringdata_update_soft	moc_update_soft.cpp	/^static const char qt_meta_stringdata_update_soft[] = {$/;"	v	file:
+qt_metacall	MessageBox/moc_messagebox.cpp	/^int MessageBox::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MessageBox
+qt_metacall	moc_messagebox.cpp	/^int MessageBox::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MessageBox
+qt_metacall	moc_update_soft.cpp	/^int update_soft::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:update_soft
+qt_metacast	MessageBox/moc_messagebox.cpp	/^void *MessageBox::qt_metacast(const char *_clname)$/;"	f	class:MessageBox
+qt_metacast	moc_messagebox.cpp	/^void *MessageBox::qt_metacast(const char *_clname)$/;"	f	class:MessageBox
+qt_metacast	moc_update_soft.cpp	/^void *update_soft::qt_metacast(const char *_clname)$/;"	f	class:update_soft
+read_fifo	update_soft.h	/^    int read_fifo;$/;"	m	class:update_soft
+read_file	update_soft.cpp	/^QString update_soft::read_file( const QString path)$/;"	f	class:update_soft
+read_rootfs_version	update_soft.cpp	/^QString read_rootfs_version(const QString path)$/;"	f
+request	main.cpp	/^int request(int msgid, int upgrade_type)$/;"	f
+send_req	main.cpp	/^int send_req(int msgid, int upgrade_type)$/;"	f
+should_enable_upgrade	update_soft.cpp	/^void update_soft::should_enable_upgrade()$/;"	f	class:update_soft
+show_loaded_status	update_soft.cpp	/^void update_soft::show_loaded_status()$/;"	f	class:update_soft
+show_upgrade_ui	main.cpp	/^int show_upgrade_ui()$/;"	f
+sig_handle	update_soft.cpp	/^void sig_handle(int sig)$/;"	f
+staticMetaObject	MessageBox/moc_messagebox.cpp	/^const QMetaObject MessageBox::staticMetaObject = {$/;"	m	class:MessageBox	file:
+staticMetaObject	moc_messagebox.cpp	/^const QMetaObject MessageBox::staticMetaObject = {$/;"	m	class:MessageBox	file:
+staticMetaObject	moc_update_soft.cpp	/^const QMetaObject update_soft::staticMetaObject = {$/;"	m	class:update_soft	file:
+str_auth_client	main.cpp	/^char  str_auth_client[256] = "\/tmp\/xauth-v300";$/;"	v
+str_auth_server	main.cpp	/^char  str_auth_server[256] = "\/tmp\/xauth-server";$/;"	v
+str_mcookie	main.cpp	/^char  str_mcookie[256] = "";$/;"	v
+success	main.cpp	/^int success(int msgid, int upgrade_type)$/;"	f
+timer_timeout	update_soft.cpp	/^void update_soft::timer_timeout()$/;"	f	class:update_soft
+type	update_soft.h	/^    char type[64];$/;"	m	struct:_IMAGES_MAP
+umount_disc	main.cpp	/^int umount_disc()$/;"	f
+update_application	main.cpp	/^int update_application(char *image_name)$/;"	f
+update_soft	update_soft.cpp	/^update_soft::update_soft(QWidget *parent)$/;"	f	class:update_soft
+update_soft	update_soft.h	/^class update_soft : public QMainWindow$/;"	c
+upgrade	main.cpp	/^int upgrade()$/;"	f
+upgrade_module	update_soft.cpp	/^struct upgrade_module$/;"	s	file:
+upgrade_module	update_soft.h	/^unsigned int upgrade_module = 0x0;$/;"	v
+upgrade_pid	update_soft.h	/^    int upgrade_pid;$/;"	m	class:update_soft
+upgrade_rootfs	update_soft.h	/^bool upgrade_rootfs = false;$/;"	v
+upgrade_type	update_soft.h	/^    int upgrade_type;$/;"	m	class:update_soft
+ve_get_pidof	main.cpp	/^static int ve_get_pidof(const char* execmd)$/;"	f	file:
+ver_file_name	update_soft.h	/^    char ver_file_name[128];$/;"	m	struct:_IMAGES_MAP
+x11_server_invoke	main.cpp	/^int x11_server_invoke()$/;"	f
+x11_server_wait	main.cpp	/^static int x11_server_wait()$/;"	f	file:
+~MessageBox	MessageBox/messagebox.cpp	/^MessageBox::~MessageBox()$/;"	f	class:MessageBox
+~MessageBox	messagebox.cpp	/^MessageBox::~MessageBox()$/;"	f	class:MessageBox
+~update_soft	update_soft.cpp	/^update_soft::~update_soft()$/;"	f	class:update_soft
